@@ -2,7 +2,7 @@ let written_tweets = [];
 
 function getSentiment(text) {
     // Simple sentiment analysis using a hardcoded list of words
-    const positiveWords = new Set(["love", "great", "good", "happy", "awesome", "fantastic", "amazing", "fun", "excited", "best", "proud", "nice", "wonderful", "beautiful", "excellent"]);
+    const positiveWords = new Set(["abundance", "accessible", "admire", "adore", "love", "great", "good", "happy", "awesome", "fantastic", "amazing", "fun", "excited", "enjoy", "enjoyable", "enjoys", "enjoyed", "enjoys", "enjoying", "best", "proud", "nice", "wonderful", "beautiful", "excellent"]);
     const negativeWords = new Set(["bad", "hate", "terrible", "awful", "worst", "sad", "pain", "tired", "hurt", "difficult", "hard", "boring", "slow", "annoying", "sucks"]);
 
     const cleanText = text.toLowerCase();
